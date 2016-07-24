@@ -1,0 +1,44 @@
+{"_id":{"$oid":"57941f437e90803304f612db"},"criticality":"1-HighPriority","exception":"ORA345_654","exceptionDetails":"ConstraintException","system":"CLASS"}
+{"_id":{"$oid":"57941f9a7e90803304f612dc"},"criticality":"1-HighPriority","exception":"NullPointerException","exceptionDetails":"NullPointer Application.java(154)","system":"SFD"}
+{"_id":{"$oid":"57941ff17e90803304f612df"},"criticality":"2-HighPriority","exception":"SecurityException","exceptionDetails":"SecurityException Login.java(202))","system":"SFD"}
+{"_id":{"$oid":"579420c67e90803304f612e0"},"criticality":"2-Medium","exception":"NullPointerException","exceptionDetails":"NullPointerException Application.java(167)","system":"FE"}
+{"_id":{"$oid":"579421077e90803304f612e1"},"criticality":"3-Low","exception":"ClassCastException","exceptionDetails":"ClassCastException Application.java(167)","system":"FE"}
+{"_id":{"$oid":"5794211a7e90803304f612e2"},"criticality":"2-Medium","exception":"NullPointerException","exceptionDetails":"NullPointerException Application.java(167)","system":"FE"}
+{"_id":{"$oid":"579421357e90803304f612e3"},"criticality":"2-HighPriority","exception":"SecurityException","exceptionDetails":"SecurityException Login.java(202))","system":"SFD"}
+{"_id":{"$oid":"5794c7a2fb586f5d668f6a95"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"5794c7abfb586f5d668f6a96"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"5794c7b4fb586f5d668f6a97"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"5794c7d4fb586f5d668f6a98"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"5794c7e0fb586f5d668f6a99"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"5794c818fb586f5d668f6a9a"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SICPK023","system":"CLASS"}
+{"_id":{"$oid":"5794c831fb586f5d668f6a9b"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c833fb586f5d668f6a9c"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c834fb586f5d668f6a9d"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c835fb586f5d668f6a9e"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c836fb586f5d668f6a9f"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c837fb586f5d668f6aa0"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c838fb586f5d668f6aa1"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"5794c838fb586f5d668f6aa2"},"criticality":"2-Medium","exception":"ORA4567_34","exceptionDetails":"Invalid Objects SAP_BUR_TRG","system":"CLASS"}
+{"_id":{"$oid":"57950671fb586f5d668f6aa3"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"57950676fb586f5d668f6aa4"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"5795067dfb586f5d668f6aa5"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"5795067efb586f5d668f6aa6"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"5795067ffb586f5d668f6aa7"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"5795067ffb586f5d668f6aa8"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"57950680fb586f5d668f6aa9"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"57950681fb586f5d668f6aaa"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"57950681fb586f5d668f6aab"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"57950682fb586f5d668f6aac"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"57950683fb586f5d668f6aad"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"57950684fb586f5d668f6aae"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"HEI"}
+{"_id":{"$oid":"57950685fb586f5d668f6aaf"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"5795068cfb586f5d668f6ab0"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"5795068dfb586f5d668f6ab1"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"5795068dfb586f5d668f6ab2"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"5795068ffb586f5d668f6ab3"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"57950690fb586f5d668f6ab4"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"57950691fb586f5d668f6ab5"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}
+{"_id":{"$oid":"57950696fb586f5d668f6ab6"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"57950698fb586f5d668f6ab7"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"57950699fb586f5d668f6ab8"},"criticality":"3-Low","exception":"IOException","exceptionDetails":"Application.java(203)","system":"FE"}
+{"_id":{"$oid":"5795069bfb586f5d668f6ab9"},"criticality":"2-Medium","exception":"FileNotFoundException","exceptionDetails":"Application.java(203)","system":"SFD"}

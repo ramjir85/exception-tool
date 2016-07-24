@@ -13,4 +13,7 @@ gradle clean build
 # Run
 gradle run
 
+# Access the site
+http://localhost:1122/exception-home
+
 

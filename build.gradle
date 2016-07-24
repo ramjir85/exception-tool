@@ -1,0 +1,70 @@
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+
+mainClassName = 'uk.co.exception.App'
+
+
+repositories {
+    // Use 'jcenter' for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    mavenCentral()
+}
+
+
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+
+    compile group: 'io.dropwizard', name: 'dropwizard-core', version: '0.8.0-rc2'
+    compile group: 'io.dropwizard', name: 'dropwizard-views-freemarker', version: '0.8.0-rc2'
+
+    compile group: 'io.dropwizard', name: 'dropwizard-assets', version: '0.8.0-rc2'
+
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.9'
+
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: '2.15'
+
+    /*compile group: 'com.sun.jersey.contribs', name: 'jersey-multipart', version: '1.8'*/
+
+
+    /*compile group: 'com.sun.jersey.contribs', name: 'jersey-multipart', version: '1.19'*/
+
+    /*compile group: 'org.jvnet.mimepull', name: 'mimepull', version: '1.9.4'*/
+
+    compile 'org.slf4j:slf4j-api:1.7.7',
+            'org.mongodb:mongo-java-driver:3.0.1'
+
+    // Declare the dependency for your favourite test framework you want to use in your tests.
+    // TestNG is also supported by the Gradle Test task. Just change the
+    // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
+    // 'test.useTestNG()' to your build script.
+    testCompile 'junit:junit:4.11'
+}
+
+jar{
+    manifest {
+        attributes("Implementation-Title": "Gradle",
+                "Implementation-Version": '1.0.0',
+                 "Main-Class" : 'uk.co.exception.App')
+    }
+
+    from (configurations.runtime.resolve().collect { it.isDirectory() ? it : zipTree(it) })
+}
+
+/*sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/resources','config'
+        }
+    }
+}*/
+
+run {
+    args 'server', 'config/exception-tool.yml'
+}
