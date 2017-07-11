@@ -2,8 +2,7 @@
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'application'
-apply plugin: 'org.sonarqube'
-apply plugin: 'jacoco'
+
 
 sourceCompatibility = 1.7
 
@@ -40,6 +39,8 @@ buildscript {
     }
 }
 
+apply plugin: 'org.sonarqube'
+apply plugin: 'jacoco'
 
 repositories {
     // Use 'jcenter' for resolving your dependencies.
