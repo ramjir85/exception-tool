@@ -20,6 +20,7 @@ buildscript {
       }
       mavenLocal()
       mavenCentral()
+      flatDir dirs: "${rootProject.projectDir}/libs"
     }
 
     dependencies {
