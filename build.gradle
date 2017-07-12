@@ -25,7 +25,7 @@ buildscript {
 
     dependencies {
       classpath 'org.ajoberstar:gradle-jacoco:0.1.0'
-      classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.2'
+      classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5'
     }
 }
 
@@ -36,7 +36,7 @@ sonarqube {
 
     properties {
 
-        property "sonar.projectName", "Java :: Simple Project :: SonarQube Scanner for Gradle"
+        property "sonar.projectName", "Exception Tool"
 
         property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
 
