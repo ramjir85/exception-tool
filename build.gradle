@@ -38,9 +38,9 @@ sonarqube {
 
         property "sonar.projectName", "Exception Tool"
 
-        property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+        property "sonar.projectKey", "exception-tool"
 
-        //property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"
+        property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"
 
     }
 
