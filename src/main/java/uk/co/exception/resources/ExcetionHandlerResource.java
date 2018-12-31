@@ -35,7 +35,7 @@ public class ExcetionHandlerResource {
     }
 
     private void setUpMongo() {
-        this.mongoClient = new MongoClient("Rahul85", 27017); //Select localhost instead on 'Rahul85' as mongo host.
+        this.mongoClient = new MongoClient("Rahul85", 27017); //Check the hostname for the Mongo. Here I am using Rahul85
 
     }
 
