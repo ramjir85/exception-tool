@@ -35,7 +35,7 @@ public class ExcetionHandlerResource {
     }
 
     private void setUpMongo() {
-        this.mongoClient = new MongoClient("Rahul85", 27017); //Check the hostname for the Mongo. Here I am using Rahul85
+        this.mongoClient = new MongoClient("Rahul85", 27017); //Check the hostname for the Mongo. Here I am using Rahul85. Port is always 27017
 
     }
 
