@@ -16,4 +16,6 @@ gradle run
 # Access the site
 http://localhost:1122/exception-home
 
+Or you choose the port number too.
+
 
